@@ -1,0 +1,48 @@
+.hideShowBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  button {
+    @apply p-2 rounded-lg shadow-xl text-white font-bold w-[150px];
+  }
+  .showBtn {
+    @apply bg-blue-500;
+  }
+  .hideBtn {
+    @apply bg-red-500;
+  }
+}
+//*********************************************************************
+.container {
+  .showInput {
+    @apply hidden;
+  }
+  .formContainer {
+    @apply w-1/3 m-auto mt-5 gap-1 p-2 rounded-lg  bg-white;
+  }
+  label {
+    @apply text-lg text-red-500;
+  }
+  input {
+    @apply w-[100%] h-9 rounded-md p-2 bg-red-200;
+  }
+
+  .addProductBtn {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 250px;
+    margin: auto;
+    margin-top: 2rem;
+    height: 40px;
+    background-color: rgb(72, 72, 235);
+    color: white;
+    border-radius: 15px;
+    gap: 1rem;
+    font-size: 1.2rem;
+    &:hover {
+      background-color: blue;
+    }
+  }
+}

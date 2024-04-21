@@ -1,0 +1,10 @@
+.iconLogin{
+    @apply text-[2rem] hover:text-blue-600 ml-3
+}
+.or{
+    @apply  w-[30rem] my-4 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300 dark:before:border-neutral-500 dark:after:border-neutral-500
+}
+
+.loginBtn{
+    @apply inline-block w-2/5 rounded bg-blue-500 px-7 pb-2 pt-3 text-sm font-medium uppercase leading-normal text-white shadow-blue-500 hover:bg-blue-600 ml-[15rem]
+}
