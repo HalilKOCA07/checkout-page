@@ -1,15 +1,19 @@
 .hideShowBtn {
-  @apply flex justify-center mt-[2rem]
+ 
+button {
+  @apply  p-2 rounded-lg shadow-xl text-white font-bold w-[150px];
+}
+}
 
-  button {
-    @apply p-2 rounded-lg shadow-xl text-white font-bold w-[150px];
-  }
-  .showBtn {
-    @apply bg-blue-500;
-  }
-  .hideBtn {
-    @apply bg-red-500;
-  }
+.showBtn {
+  @apply bg-blue-500 m-auto
+}
+.hideBtn {
+  @apply bg-red-500 m-auto text-center;
+}
+
+.hideShowBtn{
+  @apply flex
 }
 //*********************************************************************
 .container {
