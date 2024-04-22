@@ -1,7 +1,6 @@
 .hideShowBtn {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
+  @apply flex justify-center mt-[2rem]
+
   button {
     @apply p-2 rounded-lg shadow-xl text-white font-bold w-[150px];
   }
@@ -30,22 +29,4 @@
     .addProductBtn{
       @apply flex justify-center flex-nowrap w-[250px] h-[40px] m-auto mt-5 bg-blue-500 text-white rounded-lg text-xl hover:bg-blue-600
     }
-  // .addProductBtn {
-  //   display: flex;
-  //   justify-content: center;
-  //   flex-wrap: nowrap;
-  //   flex-direction: column;
-  //   width: 250px;
-  //   margin: auto;
-  //   margin-top: 2rem;
-  //   height: 40px;
-  //   background-color: rgb(72, 72, 235);
-  //   color: white;
-  //   border-radius: 15px;
-  //   gap: 1rem;
-  //   font-size: 1.2rem;
-  //   &:hover {
-  //     background-color: blue;
-  //   }
-  // }
-}
+  }
