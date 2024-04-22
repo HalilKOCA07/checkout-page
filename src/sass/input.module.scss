@@ -27,22 +27,25 @@
     @apply w-[100%] h-9 rounded-md p-2 bg-red-200;
   }
 
-  .addProductBtn {
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    width: 250px;
-    margin: auto;
-    margin-top: 2rem;
-    height: 40px;
-    background-color: rgb(72, 72, 235);
-    color: white;
-    border-radius: 15px;
-    gap: 1rem;
-    font-size: 1.2rem;
-    &:hover {
-      background-color: blue;
+    .addProductBtn{
+      @apply flex justify-center flex-nowrap flex-col w-[250px] h-[40px] m-auto mt-5 bg-blue-500 text-white rounded-lg text-xl hover:bg-blue-600
     }
-  }
+  // .addProductBtn {
+  //   display: flex;
+  //   justify-content: center;
+  //   flex-wrap: nowrap;
+  //   flex-direction: column;
+  //   width: 250px;
+  //   margin: auto;
+  //   margin-top: 2rem;
+  //   height: 40px;
+  //   background-color: rgb(72, 72, 235);
+  //   color: white;
+  //   border-radius: 15px;
+  //   gap: 1rem;
+  //   font-size: 1.2rem;
+  //   &:hover {
+  //     background-color: blue;
+  //   }
+  // }
 }
